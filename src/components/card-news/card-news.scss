@@ -1,0 +1,40 @@
+.card-news {
+  width: 21%;
+  height: 250px;
+  padding: 16px;
+  background: #fff;
+  cursor: pointer;
+  border-radius: 12px;
+  box-shadow: rgba(49, 53, 59, 0.12) 0px 1px 6px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+  h1 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  span {
+    font-size: 12px;
+  }
+  .content_card {
+    margin-top: 8px;
+  }
+}
+.div_spanned {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 8px;
+  img {
+    width: 16px;
+    height: 16px;
+  }
+}

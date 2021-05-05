@@ -1,0 +1,110 @@
+.parent_navbar {
+  position: fixed;
+  background: #fff;
+  width: -webkit-fill-available;
+  top: 0;
+  box-shadow: 0 0 8px 0 #ccc;
+  padding: 16px 75px;
+  z-index: 9999;
+}
+.sub_navbar {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.div_logo {
+  width: 25%;
+  img {
+    width: 100px;
+    cursor: pointer;
+  }
+}
+
+.div_searchbar {
+  width: 50%;
+  div {
+    display: flex;
+    width: 70%;
+    padding: 1rem;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: space-between;
+    background: #eef0f2;
+    input {
+      border: unset;
+      outline: none;
+      width: 100%;
+      background: none;
+      color: #292929;
+    }
+    img {
+      width: 16px;
+      margin-left: 24px;
+    }
+  }
+}
+
+.div_authbar {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  div {
+    display: flex;
+    align-items: center;
+  }
+}
+.btn_login {
+  padding: 0px 16px;
+  border-radius: 12px;
+  border: 1px solid #292929;
+  height: 2.5rem;
+  background: unset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #292929;
+}
+.btn_register {
+  margin-left: 16px;
+  padding: 0px 16px;
+  border-radius: 12px;
+  border: unset;
+  height: 2.5rem;
+  background: #292929;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #fff;
+}
+
+@media (max-width: 700px) {
+  .parent_navbar {
+    padding: 16px;
+    .div_logo {
+      width: 25%;
+      img {
+        width: 50px;
+      }
+    }
+  }
+  .div_searchbar {
+    width: 75%;
+    div {
+      width: 75%;
+      img {
+        margin-left: 10px;
+      }
+    }
+  }
+  .btn_register {
+    font-size: 12px;
+    padding: 12px;
+  }
+}
