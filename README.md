@@ -23,7 +23,4 @@ https://user-images.githubusercontent.com/52781454/117152011-d1902b80-ade3-11eb-
 
 
 
-## Link   
-Preview Link : https://line-today-rafly.netlify.app/  
-
 Author : Rafly Maulana   
